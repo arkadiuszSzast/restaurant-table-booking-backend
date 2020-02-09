@@ -1,4 +1,11 @@
 spring:
+  security:
+    oauth2:
+      resourceserver:
+        id: http://localhost:8080/
+        jwk:
+          jwk-set-uri: https://dev-9lyzom0i.eu.auth0.com/.well-known/jwks.json
+          issuer-uri: https://dev-9lyzom0i.eu.auth0.com/
   main:
     web-application-type: reactive
   data:
