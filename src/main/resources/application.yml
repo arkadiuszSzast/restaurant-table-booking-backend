@@ -1,4 +1,6 @@
 spring:
+  main:
+    web-application-type: reactive
   data:
     mongodb:
       uri: mongodb://localhost:27017/restaurant-table-booking
